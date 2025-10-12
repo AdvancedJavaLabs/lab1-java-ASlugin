@@ -22,11 +22,11 @@ tasks.test {
 }
 
 kotlin {
-    jvmToolchain(8)
+    jvmToolchain(21)
 }
 
 application {
-    mainClass.set("MainKt")
+    mainClass.set("org.itmo.MainKt")
 }
 
 // JCStress runner task: runs JCStress tests located on the test runtime classpath
